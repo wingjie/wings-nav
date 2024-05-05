@@ -1,0 +1,24 @@
+{
+  "boxList": [
+    "华夏",
+    "南天",
+    "常用",
+    "UI框架",
+    "安装包官网",
+    "其他",
+    "工具",
+    "开发插件",
+    "服务端",
+    "博客大佬",
+    "包下载地址",
+    "娱乐",
+    "爱康项目网址"
+  ],
+  "arr": [
+    "爱康项目UAT"
+  ],
+  "editLink": {
+    "pattern": "https://gitee.com/lwj-wing/wings-nav/edit/master/dist/data/:path",
+    "text": "在Gitee上编辑此页"
+  }
+}
