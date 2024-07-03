@@ -18,7 +18,7 @@
     "爱康项目UAT"
   ],
   "editLink": {
-    "pattern": "https://gitee.com/lwj-wing/wings-nav/edit/master/dist/data/:path",
+    "pattern": "https://github.com/wingjie/wings-nav/edit/master/data/:path",
     "text": "在Gitee上编辑此页"
   }
 }
