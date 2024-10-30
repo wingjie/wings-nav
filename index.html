@@ -74,32 +74,7 @@
     }
     console.log(terminal(), 'terminal');
     document.querySelector("#test").innerHTML = terminal();
-    (function () {
-      // if (terminal() !== "ios") return;
-      let startY, endY;
-      const scrollThreshold = 10; // 滑动距离阈值
-
-      window.addEventListener("touchstart", function (e) {
-        startY = e.touches[0].pageY;
-      }, {
-        passive: false
-      });
-
-      window.addEventListener("touchmove", function (e) {
-        endY = e.touches[0].pageY;
-        const deltaY = endY - startY;
-
-        const isAtTop = window.scrollY <= 0;
-        const isAtBottom = window.scrollY + window.innerHeight >= document.documentElement.scrollHeight;
-
-        if ((deltaY > scrollThreshold && isAtTop) || (deltaY < -scrollThreshold && isAtBottom)) {
-          e.preventDefault();
-        }
-      }, {
-        passive: false
-      });
-    })();
-  </script>
+   
 
 </body>
 
