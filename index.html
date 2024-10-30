@@ -41,8 +41,9 @@
     }
 
     ul {
-      height: 100px;
+      height: 50vh;
       overflow-y: scroll;
+      border: 1px solid pink;
     }
   </style>
 </head>
@@ -106,7 +107,7 @@
     console.log(terminal(), 'terminal');
     document.querySelector("#test").innerHTML = terminal();
     (function () {
-      // if (terminal() !== "ios") return;
+      if (terminal() !== "ios") return;
       let startY, endY;
       const scrollThreshold = 10; // 滑动距离阈值
 
