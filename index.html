@@ -1,81 +1,20 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>无缝循环滚动文字</title>
-  <style>
-    /* 包裹容器 */
-    .scroll-container {
-      width: 100%;
-      /* 容器宽度 */
-      overflow: hidden;
-      /* 隐藏超出容器的内容 */
-      white-space: nowrap;
-      /* 防止文字换行 */
-      background-color: #f0f0f0;
-      font-size: 24px;
-      box-sizing: border-box;
-      display: flex;
-    }
-
-    /* 滚动内容 */
-    .scroll-content {
-      display: inline-flex;
-      /* 水平排列内容 */
-      white-space: nowrap;
-      animation: scroll 10s linear infinite;
-      /* 无限滚动动画 */
-    }
-
-    /* 定义滚动动画 */
-    @keyframes scroll {
-      0% {
-        transform: translateX(0);
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/wings-nav/wing.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>wings nav</title>
+    <style>
+      body {
+        margin: 0;
       }
-
-      100% {
-        transform: translateX(-50%);
-      }
-    }
-  </style>
-</head>
-
-<body>
-
-  <div class="scroll-container" id="scrollContainer">
-    <div class="scroll-content" id="scrollContent">
-      <span>这是循环滚动的文字内容，可以替换成你想要的文字。这是循环滚动的文字内容，可以替换成你想要的文字。1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-      <span>这是循环滚动的文字内容，可以替换成你想要的文字。这是循环滚动的文字内容，可以替换成你想要的文字。1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-    </div>
-  </div>
-  <div id="test"></div>
-  <div>456</div>
-  <script src="https://unpkg.com/vconsole@latest/dist/vconsole.min.js"></script>
-  <script>
-    // VConsole 默认会挂载到 `window.VConsole` 上
-    var vConsole = new window.VConsole();
-  </script>
-
-  <script>
-    // 判断是Android还是ios
-    function terminal() {
-      var u = navigator.userAgent;
-      var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
-      var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
-
-      if (isAndroid) {
-        return 'Android'
-      } else if (isiOS) {
-        return 'iOS'
-      }
-      return 'other'
-    }
-    console.log(terminal(), 'terminal');
-    document.querySelector("#test").innerHTML = terminal();
-   
-
-</body>
-
+    </style>
+    <script type="module" crossorigin src="/wings-nav/assets/index-f21758b0.js"></script>
+    <link rel="stylesheet" href="/wings-nav/assets/index-44a52fba.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    
+  </body>
 </html>
