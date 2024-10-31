@@ -177,6 +177,34 @@
     }
     console.log(terminal(), 'terminal');
     document.querySelector("#test").innerHTML = terminal();
+    // (function () {
+    //   // if (terminal() !== "ios") return;
+    //   let startY, endY;
+    //   const scrollThreshold = 10; // 滑动距离阈值
+
+    //   window.addEventListener("touchstart", function (e) {
+    //     startY = e.touches[0].pageY;
+    //   }, {
+    //     passive: false
+    //   });
+
+    //   window.addEventListener("touchmove", function (e) {
+    //     endY = e.touches[0].pageY;
+    //     const deltaY = endY - startY;
+
+    //     const isAtTop = window.scrollY <= 0;
+    //     const isAtBottom = window.scrollY + window.innerHeight >= document.documentElement.scrollHeight;
+
+    //     console.log(deltaY, isAtTop, isAtBottom, 'deltaY', (deltaY > scrollThreshold && isAtTop) || (deltaY < -
+    //       scrollThreshold && isAtBottom))
+    //     if ((deltaY > scrollThreshold && isAtTop) || (deltaY < -scrollThreshold && isAtBottom)) {
+    //       e.preventDefault();
+    //     }
+    //   }, {
+    //     passive: false
+    //   });
+    // })();
+
     (function () {
       // if (terminal() !== "ios") return;
       let startY, endY;
@@ -195,10 +223,14 @@
         const isAtTop = window.scrollY <= 0;
         const isAtBottom = window.scrollY + window.innerHeight >= document.documentElement.scrollHeight;
 
-        console.log(deltaY, isAtTop, isAtBottom, 'deltaY', (deltaY > scrollThreshold && isAtTop) || (deltaY < -
-          scrollThreshold && isAtBottom))
-        if ((deltaY > scrollThreshold && isAtTop) || (deltaY < -scrollThreshold && isAtBottom)) {
+        // 只有在试图滚动超出边界时才阻止默认行为
+        if (deltaY > scrollThreshold && isAtTop) {
           e.preventDefault();
+        } else if (deltaY < -scrollThreshold && isAtBottom) {
+          e.preventDefault();
+        } else {
+          // 允许正常的滚动行为
+          startY = endY; // 更新startY，以便下次计算deltaY
         }
       }, {
         passive: false
