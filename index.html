@@ -6,6 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>无缝循环滚动文字</title>
   <style>
+    body {
+      overflow: hidden;
+    }
+
     /* 包裹容器 */
     .scroll-container {
       width: 100%;
@@ -162,6 +166,9 @@
   </script>
 
   <script>
+    document.querySelector('body').addEventListener('touchmove', function (e) {
+      e.preventDefault()
+    })
     // 判断是Android还是ios
     function terminal() {
       var u = navigator.userAgent;
@@ -203,7 +210,7 @@
       }, {
         passive: false
       });
-    })();
+    });
 
     // (function () {
     //   // if (terminal() !== "ios") return;
