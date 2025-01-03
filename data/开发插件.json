@@ -1,4 +1,9 @@
 [{
+    "link": "http://gocaptcha.wencodes.com/docs/",
+    "title": "登陆图形校验插件",
+    "introduction": "后端是go"
+  },
+  {
     "link": "https://github.com/huanghaodong/wxminiprogram-picker",
     "title": "小程序三级联动",
     "introduction": "原生微信小程序-自定义picker选择器"
