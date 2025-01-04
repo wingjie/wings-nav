@@ -15,7 +15,7 @@
   ],
   "arr": [
     "爱康项目UAT",
-    "华夏",
+   // "华夏",
   ],
   "editLink": {
     "pattern": "https://github.com/wingjie/wings-nav/edit/master/data/:path",
