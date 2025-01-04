@@ -11,11 +11,10 @@
     "包下载地址",
     "娱乐",
     "南天",
-    "爱康项目网址"
+    "爱康项目网址",
   ],
   "arr": [
     "爱康项目UAT",
-    "华夏",
   ],
   "editLink": {
     "pattern": "https://github.com/wingjie/wings-nav/edit/master/data/:path",
