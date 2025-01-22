@@ -3,24 +3,14 @@ export default [{
     "title": "github",
     "introduction": "git库"
   },
-{
-    "link": "https:baidu.com",
-    "title": "百度",
-    "introduction": "https://web.heny.vip/,https://hnys.gitee.io/vite-note/"
-  },
-  {
-    "link": "https://heny.github.io/",
-    "title": "何能勇笔记",
-    "introduction": "https://web.heny.vip/,https://hnys.gitee.io/vite-note/"
-  },
   {
     "link": "http://mail.qq.com/cgi-bin/frame_html?sid=SUPsMoAH_dDYamQ7&from=",
     "title": "qq邮箱",
     "introduction": ""
   },
   {
-    "link": "https://wingjie.github.io/",
-    "title": "博客",
+    "link": "https://wingjie.github.io/wing-note/",
+    "title": "笔记博客",
     "introduction": ""
   },
   {

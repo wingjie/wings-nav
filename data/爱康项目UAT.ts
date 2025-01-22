@@ -4,6 +4,11 @@ export default [{
     "introduction": ""
   },
   {
+    "link": "https://heny.github.io/",
+    "title": "何能勇笔记",
+    "introduction": "https://web.heny.vip/,https://hnys.gitee.io/vite-note/"
+  },
+  {
     "link": "http://uat.ee.ikang.com/es",
     "title": "企业平台—hr端",
     "introduction": ""
