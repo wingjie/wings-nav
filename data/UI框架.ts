@@ -1,4 +1,4 @@
-[{
+export default [{
     "link": "https://www.naiveui.com/zh-CN/os-theme/components/icon",
     "title": "图标 Icon - Naive UI",
     "introduction": "图标 Icon - Naive UI https://www.naiveui.com/zh-CN/os-theme/components/icon"

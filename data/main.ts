@@ -1,4 +1,4 @@
-{
+export default{
   "boxList": [
     "常用",
     "UI框架",
@@ -18,6 +18,6 @@
   ],
   "editLink": {
     "pattern": "https://github.com/wingjie/wings-nav/edit/master/data/:path",
-    "text": "在Gitee上编辑此页"
+    "text": "在Gitee上编辑此页;"
   }
 }

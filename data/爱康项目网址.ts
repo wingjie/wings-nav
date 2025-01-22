@@ -1,4 +1,4 @@
-[{
+export default [{
     "link": "https://my.ikang.com",
     "title": "myikang",
     "introduction": ""

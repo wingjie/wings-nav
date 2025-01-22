@@ -1,4 +1,4 @@
-[{
+export default [{
     "link": "https://antv-x6.gitee.io/zh/examples/showcase/practices#algo-flow",
     "title": "antv X6",
     "introduction": "要调研的antv X6图形"

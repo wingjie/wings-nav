@@ -1,4 +1,4 @@
-[{
+export default [{
     "link": "https://vue-test-utils.vuejs.org/zh/guides/#%E8%B5%B7%E6%AD%A5",
     "title": "单元测试文档",
     "introduction": ""

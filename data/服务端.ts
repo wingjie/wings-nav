@@ -1,4 +1,4 @@
-[{
+export default [{
     "link": "https://juejin.cn/post/6844903656827912206",
     "title": "带你走近Vue服务器端渲染(VUE SSR)",
     "introduction": ""

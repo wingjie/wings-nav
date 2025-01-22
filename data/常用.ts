@@ -1,4 +1,4 @@
-[{
+export default [{
     "link": "https://github.com/wingjie/node",
     "title": "github",
     "introduction": "git库"
@@ -59,3 +59,4 @@
     "introduction": "可以用gpt4"
   }
 ]
+

@@ -1,4 +1,4 @@
-[{
+export default [{
     "link": "http://gocaptcha.wencodes.com/docs/",
     "title": "登陆图形校验插件",
     "introduction": "后端是go"

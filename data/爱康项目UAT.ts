@@ -1,4 +1,4 @@
-[{
+export default [{
     "link": "http://uat.ee.ikang.com/employee/platform/test/newIndex",
     "title": "企业平台—员工端",
     "introduction": ""

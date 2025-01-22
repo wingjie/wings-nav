@@ -1,4 +1,4 @@
-[{
+export default [{
     "link": "https://ruanyifeng.com/blog/2019/03/grid-layout-tutorial.html",
     "title": "grid",
     "introduction": "阮一峰讲的grid布局"

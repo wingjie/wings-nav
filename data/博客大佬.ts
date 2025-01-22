@@ -1,4 +1,4 @@
-[{
+export default [{
     "link": "https://tsanfer.xyz/",
     "title": "Tsanfer's Blog",
     "introduction": ""

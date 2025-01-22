@@ -1,4 +1,4 @@
-[{
+export default [{
     "link": "https://tool.oschina.net/",
     "title": "代码在线工具",
     "introduction": "base64转换、正则验证"
